@@ -4,7 +4,7 @@
 // - protoc             v3.21.12
 // source: proto/movie.proto
 
-package go_grpc_crud_api
+package movies_with_grpc_postgres_gin_gorm_auto_migration
 
 import (
 	context "context"
@@ -19,11 +19,11 @@ import (
 const _ = grpc.SupportPackageIsVersion7
 
 const (
-	MovieService_CreateMovie_FullMethodName = "/proto.MovieService/CreateMovie"
-	MovieService_GetMovie_FullMethodName    = "/proto.MovieService/GetMovie"
-	MovieService_GetMovies_FullMethodName   = "/proto.MovieService/GetMovies"
-	MovieService_UpdateMovie_FullMethodName = "/proto.MovieService/UpdateMovie"
-	MovieService_DeleteMovie_FullMethodName = "/proto.MovieService/DeleteMovie"
+	MovieService_CreateMovie_FullMethodName = "/movie.MovieService/CreateMovie"
+	MovieService_GetMovie_FullMethodName    = "/movie.MovieService/GetMovie"
+	MovieService_GetMovies_FullMethodName   = "/movie.MovieService/GetMovies"
+	MovieService_UpdateMovie_FullMethodName = "/movie.MovieService/UpdateMovie"
+	MovieService_DeleteMovie_FullMethodName = "/movie.MovieService/DeleteMovie"
 )
 
 // MovieServiceClient is the client API for MovieService service.
@@ -228,7 +228,7 @@ func _MovieService_DeleteMovie_Handler(srv interface{}, ctx context.Context, dec
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var MovieService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "proto.MovieService",
+	ServiceName: "movie.MovieService",
 	HandlerType: (*MovieServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{

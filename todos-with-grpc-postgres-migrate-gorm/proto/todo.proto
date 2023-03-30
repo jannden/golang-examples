@@ -2,7 +2,7 @@ syntax="proto3";
 
 package todo;
 
-option go_package = "github.com/jannden/golang-examples/todos-with-grpc-postgres-migrate-gorm/proto/todo";
+option go_package = "github.com/jannden/golang-examples/todos-with-grpc-postgres-migrate-gorm/proto";
 
 message NewTodo {
   string name = 1;

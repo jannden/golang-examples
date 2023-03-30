@@ -1,6 +1,6 @@
 syntax="proto3";
  
-package proto;
+package movie;
  
 option go_package="github.com/jannden/golang-examples/movies-with-grpc-postgres-gin-gorm-auto-migration";
  
