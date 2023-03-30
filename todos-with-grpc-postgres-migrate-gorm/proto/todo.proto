@@ -1,0 +1,22 @@
+syntax="proto3";
+
+package todo;
+
+option go_package = "github.com/jannden/golang-examples/todos-with-grpc-postgres-migrate-gorm/proto/todo";
+
+message NewTodo {
+  string name = 1;
+  string description = 2;
+  bool done = 3;
+}
+
+message Todo {
+  int64 id = 1;
+  string name = 2;
+  string description = 3;
+  bool done = 4;
+}
+
+service TodoService {
+  rpc CreateTodo (NewTodo) returns (Todo);
+}
