@@ -1,4 +1,4 @@
-module github.com/jannden/golang-examples/todos
+module github.com/jannden/golang-examples/todos-with-grpc-postgres-migrate-gorm
 
 go 1.20
 
