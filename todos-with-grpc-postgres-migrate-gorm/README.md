@@ -11,4 +11,4 @@ This is a simple todo app written in Go, using gRPC and Postgres.
 5. Run `go run client/main.go`
 
 ### Tutorial:
-My step-by-step notes are (here)[https://medium.com/@mehrdadrad/building-a-simple-todo-app-with-go-grpc-and-postgres-1b1f7f8f2f2e].
+My step-by-step notes are [here](https://medium.com/@mehrdadrad/building-a-simple-todo-app-with-go-grpc-and-postgres-1b1f7f8f2f2e).
