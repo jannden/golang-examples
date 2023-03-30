@@ -1,4 +1,4 @@
-# Golang, gRPC, Postgres examplel
+# Golang, gRPC, Postgres with Gorm and golang-migrate
 ## Todo app
 
 This is a simple todo app written in Go, using gRPC and Postgres.
